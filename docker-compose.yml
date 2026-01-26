@@ -1,0 +1,53 @@
+services:
+  # Streamlit Dashboard
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: churn-dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/reports
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: streamlit run dashboard/app.py --server.address=0.0.0.0
+    restart: unless-stopped
+    networks:
+      - churn-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # FastAPI Prediction Service
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: churn-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: uvicorn api.predict:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped
+    networks:
+      - churn-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    depends_on:
+      - dashboard
+
+networks:
+  churn-network:
+    driver: bridge

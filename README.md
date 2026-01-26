@@ -30,6 +30,17 @@ A comprehensive machine learning system that predicts customer churn at multiple
 
 *Actionable retention strategies with expected ROI*
 
+### 🐳 Docker Deployment
+![Docker Running](screenshots/docker-running.png)
+
+*Both services running successfully in Docker containers*
+
+### API Dashboard 
+![API Docs](screenshots/api-docs.png)
+
+### SaaS churn prediction
+![SaaS churn prediction](screenshots/SaaS-Churn-Prediction.png)
+
 ## Key Features
 
 ### Multi-Horizon Prediction

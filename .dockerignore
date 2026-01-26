@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Git
+.git/
+.gitignore
+
+# Large files (will be mounted as volumes)
+data/raw/*.csv
+models/*.pkl
+
+# Documentation
+README.md
+*.md
+
+# Tests
+test_*.py
