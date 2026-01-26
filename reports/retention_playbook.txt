@@ -1,0 +1,126 @@
+================================================================================
+CUSTOMER RETENTION PLAYBOOK
+================================================================================
+
+CUSTOMER SEGMENTS
+--------------------------------------------------------------------------------
+
+Segment: NEW_CUSTOMER_STRUGGLE
+  Customers: 1633
+  Avg Revenue: $-0.33/month
+  Avg Churn Risk: 72.0%
+  Avg Engagement: -0.2/100
+
+Segment: NEW_CUSTOMER_STRUGGLE
+  Customers: 1848
+  Avg Revenue: $-0.39/month
+  Avg Churn Risk: 38.0%
+  Avg Engagement: -0.4/100
+
+Segment: NEW_CUSTOMER_STRUGGLE
+  Customers: 1545
+  Avg Revenue: $-0.35/month
+  Avg Churn Risk: 38.0%
+  Avg Engagement: 1.4/100
+
+Segment: NEW_CUSTOMER_STRUGGLE
+  Customers: 1451
+  Avg Revenue: $2.18/month
+  Avg Churn Risk: 51.0%
+  Avg Engagement: -0.1/100
+
+Segment: NEW_CUSTOMER_STRUGGLE
+  Customers: 1619
+  Avg Revenue: $-0.39/month
+  Avg Churn Risk: 64.0%
+  Avg Engagement: -0.2/100
+
+Segment: NEW_CUSTOMER_STRUGGLE
+  Customers: 1904
+  Avg Revenue: $-0.39/month
+  Avg Churn Risk: 43.0%
+  Avg Engagement: -0.4/100
+
+================================================================================
+INTERVENTION STRATEGIES
+================================================================================
+
+INTERVENTION ROI ANALYSIS
+--------------------------------------------------------------------------------
+
+ONBOARDING REFRESH
+  Description: Dedicated onboarding specialist session
+  Target Customers: 10000
+  Total Cost: $1,500,000.00
+  Revenue at Risk: $0.00
+  Expected Revenue Saved: $0.00
+  Success Rate: 55.0%
+  ROI: -1.0x
+  Timeline: 3-5 days
+
+================================================================================
+PRIORITY ACTION ITEMS
+================================================================================
+
+IMMEDIATE ACTION REQUIRED: 2264 high-risk customers
+--------------------------------------------------------------------------------
+
+1. Customer CUST_009421
+   Revenue: $3.19/month
+   Churn Risk: 70.6%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle
+
+2. Customer CUST_006480
+   Revenue: $3.19/month
+   Churn Risk: 88.8%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle
+
+3. Customer CUST_005462
+   Revenue: $3.18/month
+   Churn Risk: 90.8%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle
+
+4. Customer CUST_000796
+   Revenue: $3.18/month
+   Churn Risk: 70.8%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle
+
+5. Customer CUST_005860
+   Revenue: $3.18/month
+   Churn Risk: 76.0%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle
+
+6. Customer CUST_007000
+   Revenue: $3.17/month
+   Churn Risk: 79.7%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle
+
+7. Customer CUST_001190
+   Revenue: $3.17/month
+   Churn Risk: 70.3%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle
+
+8. Customer CUST_008989
+   Revenue: $3.16/month
+   Churn Risk: 83.7%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle
+
+9. Customer CUST_008896
+   Revenue: $3.16/month
+   Churn Risk: 83.6%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle
+
+10. Customer CUST_007071
+   Revenue: $3.15/month
+   Churn Risk: 81.0%
+   Recommended: onboarding_refresh
+   Segment: new_customer_struggle

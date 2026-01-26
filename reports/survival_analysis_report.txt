@@ -1,0 +1,46 @@
+================================================================================
+SURVIVAL ANALYSIS REPORT
+================================================================================
+
+OVERALL CUSTOMER SURVIVAL
+--------------------------------------------------------------------------------
+Median Survival Time: 614 days (20.5 months)
+
+Survival at Key Milestones:
+    30 days (  1.0 months):  98.1% still active
+    60 days (  2.0 months):  95.9% still active
+    90 days (  3.0 months):  93.7% still active
+   180 days (  6.0 months):  87.1% still active
+   365 days ( 12.2 months):  72.8% still active
+   730 days ( 24.3 months):  36.7% still active
+
+================================================================================
+SURVIVAL BY CUSTOMER SEGMENT
+================================================================================
+
+By Plan Type:
+  Basic          :    626 days (20.9 months) - 3918 customers
+  Enterprise     :    611 days (20.4 months) - 1997 customers
+  Professional   :    603 days (20.1 months) - 4085 customers
+
+By Company Size:
+  large          :    633 days (21.1 months) - 1448 customers
+  medium         :    617 days (20.6 months) - 3476 customers
+  small          :    606 days (20.2 months) - 5076 customers
+
+================================================================================
+CHURN RISK FACTORS (Cox Proportional Hazards)
+================================================================================
+
+Top factors increasing churn risk (Hazard Ratio > 1):
+  payment_failures_90d          :  1.29x (p=0.0000)
+  support_intensity             :  1.11x (p=0.0000)
+  feature_adoption_rate         :  1.09x (p=0.5810)
+  plan_value                    :  1.03x (p=0.3176)
+
+Top factors decreasing churn risk (Hazard Ratio < 1):
+  active_users_pct              :  0.99x (p=0.9582)
+  monthly_revenue               :  0.99x (p=0.5561)
+  company_size_score            :  0.98x (p=0.4131)
+  engagement_score              :  0.93x (p=0.0339)
+  usage_trend_30d               :  0.77x (p=0.0000)
