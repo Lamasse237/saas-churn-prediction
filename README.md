@@ -4,11 +4,8 @@
 
 A comprehensive machine learning system that predicts customer churn at multiple time horizons (30, 60, 90 days), identifies at-risk customers, and recommends specific retention interventions with expected ROI.
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-orange.svg)
 ![XGBoost](https://img.shields.io/badge/XGBoost-1.7.6-red.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.25.0-FF4B4B.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -26,7 +23,6 @@ A comprehensive machine learning system that predicts customer churn at multiple
 |---------|-----|--------|
 |**Dashboard**| [https://saas-churn-prediction-by-sakshi.streamlit.app/](https://saas-churn-prediction-by-sakshi.streamlit.app/) | 🟢 Live |
 |**API**| [https://saas-churn-prediction-7uub.onrender.com/](https://saas-churn-prediction-7uub.onrender.com/) | 🟢 Live |
-|**API Docs**| [https://churn-prediction-api-7uub.onrender.com/docs](https://churn-prediction-api-7uub.onrender.com/docs) | 🟢 Live |
 
 ###  Quick Start
 
