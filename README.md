@@ -9,6 +9,41 @@ A comprehensive machine learning system that predicts customer churn at multiple
 ![XGBoost](https://img.shields.io/badge/XGBoost-1.7.6-red.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.25.0-FF4B4B.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+[![Dashboard](https://img.shields.io/badge/Dashboard-Live-success?style=flat-square)](https://YOUR_USERNAME-saas-churn-prediction.streamlit.app)
+[![API](https://img.shields.io/badge/API-Live-success?style=flat-square)](https://churn-prediction-api-xxxx.onrender.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+
+##  Live Demo
+
+**Try it now - No installation required!**
+
+| Service | URL | Status |
+|---------|-----|--------|
+|**Dashboard**| [https://saas-churn-prediction-by-sakshi.streamlit.app/](https://saas-churn-prediction-by-sakshi.streamlit.app/) | 🟢 Live |
+|**API**| [https://saas-churn-prediction-7uub.onrender.com/](https://saas-churn-prediction-7uub.onrender.com/) | 🟢 Live |
+|**API Docs**| [https://churn-prediction-api-7uub.onrender.com/docs](https://churn-prediction-api-7uub.onrender.com/docs) | 🟢 Live |
+
+###  Quick Start
+
+**Dashboard**: Click the dashboard link above to explore:
+- Real-time churn risk monitoring
+- Customer segmentation analysis
+- Intervention recommendations
+- Individual customer lookup
+
+**API**: Test the API directly:
+```bash
+curl -X POST "https://churn-prediction-api-xxxx.onrender.com/predict?horizon=30d" \
+  -H "Content-Type: application/json" \
+  -d '{"monthly_revenue": 199, "avg_daily_logins": 2.5, ...}'
+```
+
+Or visit the [interactive API documentation](https://churn-prediction-api-7uub.onrender.com/docs) to test in your browser.
 
 ## Dashboard Preview
 
